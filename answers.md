@@ -36,10 +36,31 @@ Après avoir exécuté `git add README.md`, la commande `git status` montre que 
 - **En revenant sur le commit initial** : Git restaure le projet à l'état exact de ce commit. Certains fichiers et modifications récentes peuvent donc disparaître, car ils n'existaient pas encore à ce stade.
 - **En revenant sur la branche `main`** : Git restaure l'état le plus récent du projet, incluant toutes les modifications récentes et les fichiers créés après le commit initial.
 
-
-
 ## Gitgraph
 
 ### Task 7
 
 ![Gitgraph](img/gitgraph.svg)
+
+<style>
+</style>
+
+1)     Le nom de la branche
+
+2)     Le short hash du commit
+
+3)     Les informations de la branche, ici on voit qu’on a merge une branche qui s’appelle « feature-auth » dans la branche « develop »
+
+4)     Le nom et l’adresse électronique de la personne qui a fait l’action
+
+5)      C’est la version de la branche main
+
+6)     C'est le commit final du projet : baa6795
+
+7)     Le point de la branche « feature-auth » ou on a add un nouvel utilisateur qui est Carol
+
+8)     C’est le merge de la branch « develop » avec la branche « main »
+
+9)     C’est la branche « develop »
+
+10)  C’est la branche « main »
