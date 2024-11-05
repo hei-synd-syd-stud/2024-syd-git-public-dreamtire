@@ -33,6 +33,11 @@ Après avoir exécuté `git add README.md`, la commande `git status` montre que 
 
 ### Task 6
 
+- **En revenant sur le commit initial** : Git restaure le projet à l'état exact de ce commit. Certains fichiers et modifications récentes peuvent donc disparaître, car ils n'existaient pas encore à ce stade.
+- **En revenant sur la branche `main`** : Git restaure l'état le plus récent du projet, incluant toutes les modifications récentes et les fichiers créés après le commit initial.
+
+
+
 ## Gitgraph
 
 ### Task 7
